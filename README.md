@@ -11,4 +11,5 @@ use `matplotlib` functions to manually space the ticks out. Unfortunately, this 
 wrong functionality.
 
 **PICTURE OF ERROR**
-![Most recent plot](broken_plot.svg,"broken plot")
+
+![Most recent plot](external-help/broken_plot.svg,"broken plot")
