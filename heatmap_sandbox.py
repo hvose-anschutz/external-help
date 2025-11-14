@@ -50,5 +50,5 @@ for s in ax.spines:
     ax.spines[s].set_visible(False)
 
 # Show the plot (it doesn't look right)
-plt.savefig('broken_plot.svg',dpi=300,bbox_inches='tight')
+plt.savefig('broken_plot.png',dpi=300,bbox_inches='tight')
 plt.show()
