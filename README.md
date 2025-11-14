@@ -12,4 +12,4 @@ wrong functionality.
 
 **PICTURE OF ERROR**
 
-![Most recent plot](https://github.com/hvose-anschutz/external-help/broken_plot.png,"broken plot")
+![Most recent plot](https://github.com/hvose-anschutz/external-help/broken_plot.png, "broken plot")
