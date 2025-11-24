@@ -44,8 +44,8 @@ new_ax.set_yticks(np.arange(0, 2*N,1),labels=nylabels)
 new_ax.set_yticks(np.arange(-0.5, 2*N + 0.5, 1), minor=True)
 
 # Other configurations (box-defining borders, tick length, etc...)
-new_ax.grid(which='major', lw=2, color='white', clip_on=False)
-ax.grid(which='major', lw=2, color='white', clip_on=False)
+new_ax.grid(which='minor', lw=2, color='white', clip_on=False)
+ax.grid(which='minor', lw=2, color='white', clip_on=False)
 ax.tick_params(length=0)
 new_ax.tick_params(length=0)
 new_ax.invert_yaxis()
@@ -54,5 +54,5 @@ new_ax.invert_yaxis()
 # Turning off original graph spines so they don't overlap
 
 # Show the plot (it doesn't look right)
-#plt.savefig('broken_plot.png',dpi=300,bbox_inches='tight')
-plt.show()
+plt.savefig('broken_plot.png',dpi=300,bbox_inches='tight')
+#plt.show()
